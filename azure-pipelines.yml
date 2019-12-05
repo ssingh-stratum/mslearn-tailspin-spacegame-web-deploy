@@ -6,7 +6,7 @@ stages:
   displayName: 'Build the web application'
   jobs: 
   - job: 'Build'
-    displayName: 'Build job'
+    displayName: 'Build job web'
     pool:
       vmImage: 'Ubuntu-16.04'
       demands:
